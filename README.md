@@ -19,7 +19,7 @@ The Quote Generator is a tool with which you can easily and quickly generate tho
 
 ## Demo
 
-Insert gif or link to demo
+https://inspiring-quote.netlify.app/
 
 
 ## Run Locally
