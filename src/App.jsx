@@ -1,12 +1,11 @@
 import React from 'react';
 import axios from 'axios';
-
+import { useState, useEffect } from 'react';
 import './App.css';
-
 const App = () => {
-  const [advice, setAdvice] = React.useState('');
+  const [advice, setAdvice] = useState('');
 
-  React.useEffect(() => {
+  useEffect(() => {
     fetchAdvice();
   }, []);
 
@@ -27,7 +26,7 @@ const App = () => {
       <div className="card">
         <h1 className="heading">{advice}</h1>
         <button className="button" onClick={fetchAdvice}>
-          <span>GIVE ME ADVICE!</span>
+          <span>INSPIRE ME!</span>
         </button>
       </div>
     </div>

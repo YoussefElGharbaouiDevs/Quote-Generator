@@ -17,7 +17,7 @@
 }
 
 .card {
-  background: whitesmoke;
+  background: rgb(37, 38, 58);
   width: 40%;
   height: 20%;
   display: flex;
@@ -47,9 +47,17 @@
   height: 200px;
   width: 210px;
   opacity: 1;
-  background-color: #ffffff;
-  border: 1px solid rgba(22, 76, 167, 0.6);
+  background-color: #937f7f;
+  border: 1px solid rgba(36, 171, 133, 0.6);
 }
+
+.button {
+  border: none;
+  padding: 15px 32px;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+}
+
   
 .button span {
   color: #164ca7;
