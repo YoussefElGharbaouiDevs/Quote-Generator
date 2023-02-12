@@ -3,7 +3,7 @@
 
 
 ## 🚀 About Me
-I'm a full stack developement student.
+I'm a full stack development student.
 
 
 # QUOTE_GENERATOR
