@@ -17,7 +17,7 @@ const App = () => {
         setAdvice(advice);
       })
       .catch((error) => {
-        console.log(error);
+        
       });
   }
 
